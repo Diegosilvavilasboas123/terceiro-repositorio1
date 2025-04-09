@@ -6,19 +6,43 @@
 --cor2:  #e2b659;
 --cor3: #fff5f9;
 --preto: #000000;
---branco: #ffffff
+--branco: #ffffff;
 }
 body {
 
 font-size: 1rem;
 font-family:'Vernon Adams';
 }
+
+section {
+    padding-bottom: 5rem;
+ }
+ 
+ .display-4 {
+    text-shadow: #592d97;
+ }
+ 
+ #EF {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    background-size: 180px 180px; /* Ajuste o tamanho conforme necessário */
+ }
+ #EF .container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: relative;
+     z-index: 1; /* Garante que o conteúdo fica acima das imagens de background se houverem */
+ 
+ }
+
+
 #contato {
 
 background: var(--cor-principal);
 background-size: cover ;
 padding: 4rem 0;
-
 }
 .formulario{ 
 
@@ -32,9 +56,9 @@ font-weight: bold ;
 
 .formulario button {
 
-background-color:var(--cor2)
+background-color:var(--cor2);
 border:none;
-font-weight:bold
+font-weight:bold;
 
 }
 
